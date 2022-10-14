@@ -1,0 +1,85 @@
+nav{
+	background-color: #0a1931;
+	color: white;
+}
+
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.links ul li{
+	display: inline;
+}
+.links ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 0 15px 0 15px;
+}
+.links{
+	margin-top: 15px;
+}
+.links i{
+	padding-right: 15px;
+}
+
+.logo{
+	background-image: url('../img/kram.png');
+	background-size: contain;
+	height: 44px;
+	width: 100px;
+}
+
+.home{
+	background-image: url('../img/bg-home.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	height: 100vh;
+}
+
+.home h1{
+    font-size: 70px;
+    padding-top: 330px;
+}
+.home h4{
+	color: #0a1931;
+}
+
+.home h4 span{
+    color: white	
+}
+
+.home .hireme{
+	background-color: #0a1931;
+    border-color: #0a1931;
+}
+
+.about{
+	height: 933px;
+	padding-top: 40px;
+}
+.blue{
+    background-color: #149ddd;
+    height: 5px;
+	margin-bottom: 15px;
+	width: 85px;
+}
+
+.picture{
+	background-image: url('../img/2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	color: white;
+	height: 80vh;
+}
+
+.description li{
+	font-size: 23px;
+    padding: 10px 0 52px 0;
+    list-style: none;
+}
+.description i{
+	color: #149ddd;
+	padding-right: 15px;
+}
